@@ -8,12 +8,16 @@ DVIP = 'dvipdfm'
 VIEW = 'evince'
 
 def get_last_tag()
-  return `git tag`.split("\n")[-1]
+  tags = `git tag`.split("\n")[-1]
+  if tags.nil?
+    return ''
+  else
+    return tags[-1]
+  end
 end
 
 def exec_commands(commands)
   for command in commands
-    print("#{command}\n")
     if system(command) == false
       return
     end
