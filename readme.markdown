@@ -27,11 +27,12 @@ Basic Customize
 I recommend that you setting following:
 
 * change `AUTHOR` and `BASEFILENAME` variable in Rakefile.
-  For example, you use `square.tex` in main tex file of this tex project, let
+  For example, if you use `square.tex` in main tex file of this tex project and
+  author's name is guide, let
 
   ```
   BASEFILENAME = 'square'
-  AUTHOR = 'yassu'
+  AUTHOR = 'guide'
   ```
 
   `AUTHOR` variable is only used for publish tasks.

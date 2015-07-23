@@ -60,7 +60,7 @@ task :publish do
     "#{DVIP}  #{BASE_FILENAME}.dvi"])
   if status == true
     pub_filename = "#{AUTHOR}-#{BASE_FILENAME}"
-    if not ver != ''
+    if ver != ''
       pub_filename += "-#{ver}"
     end
     FileUtils.cp("#{BASE_FILENAME}.tex", "#{pub_filename}.tex")
