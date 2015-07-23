@@ -21,6 +21,22 @@ What are files in this project?
 * .local.vimrc: setting of vim for this latex-project. This file is for
     [thinca/vim-localrc](https://github.com/thinca/vim-localrc).
 
+Basic Customize
+-----------------
+
+I recommend that you setting following:
+
+* change `AUTHOR` and `BASEFILENAME` variable in Rakefile.
+  For example, you use `square.tex` in main tex file of this tex project, let
+
+  ```
+  BASEFILENAME = 'square'
+  AUTHOR = 'yassu'
+  ```
+
+  `AUTHOR` variable is only used for publish tasks.
+  So, if you use tex project for yourself, you can ignore `AUTHOR` variable.
+
 LICENSE
 ---------
 
