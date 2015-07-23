@@ -59,8 +59,12 @@ task :publish do
     "#{LATEX} #{BASE_FILENAME}.tex",
     "#{DVIP}  #{BASE_FILENAME}.dvi"])
   if status == true
-    FileUtils.cp("#{BASE_FILENAME}.tex", "#{AUTHOR}-#{BASE_FILENAME}-#{ver}.tex")
-    FileUtils.cp("#{BASE_FILENAME}.pdf", "#{AUTHOR}-#{BASE_FILENAME}-#{ver}.pdf")
+    pub_filename = "#{AUTHOR}-#{BASE_FILENAME}"
+    if not ver != ''
+      pub_filename += "-#{ver}"
+    end
+    FileUtils.cp("#{BASE_FILENAME}.tex", "#{pub_filename}.tex")
+    FileUtils.cp("#{BASE_FILENAME}.pdf", "#{pub_filename}.pdf")
   end
 end
 
