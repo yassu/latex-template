@@ -3,7 +3,7 @@ require 'fileutils'
 BASE_FILENAME = 'basefilename'
 AUTHOR = 'author'
 
-LATEX = 'platex'
+LATEX = 'latex'
 DVIP = 'dvipdfm'
 VIEW = 'evince'
 
