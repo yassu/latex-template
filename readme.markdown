@@ -6,6 +6,9 @@ This is a template for my project by using latex (thesis, report or presentation
 What are files in this project?
 ---------------------------------
 
+* templates directory: You can start tex project by moving `templates/{type}.tex` to `{type}.tex`.
+  - simple.tex: template for starting "simple" tex project.
+  - slides.tex: template for starting tex project by using slides.
 * .gitignore: the some file for ignore files if you use git
 * Rakefile: task file by using rake command.
   tasks are following:
