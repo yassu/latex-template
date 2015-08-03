@@ -91,3 +91,23 @@ task :clean do
   FileUtils.rm(Dir.glob('*').select{|fname| is_latex_file(fname)})
 end
 
+def init_tex_project(type)
+  dirname = File.dirname __FILE__
+  FileUtils.copy(dirname + "/templates/#{type}.tex", dirname)
+  FileUtils.rm_r(dirname + "/templates/")
+end
+
+desc "initialize simple tex project"
+task :init do
+  init_tex_project('simple')
+end
+
+desc "initialize simple tex project"
+task :init_simple do
+  init_tex_project('simple')
+end
+
+desc "initialize slides tex project"
+task :init_slides do
+  init_tex_project('slides')
+end
