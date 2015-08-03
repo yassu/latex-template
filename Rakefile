@@ -93,8 +93,15 @@ end
 
 def init_tex_project(type)
   dirname = File.dirname __FILE__
-  FileUtils.copy(dirname + "/templates/#{type}.tex", dirname)
+  out_base_filename = ARGV[1]
+  out = dirname
+  if not out_base_filename.nil?
+    out += "/#{out_base_filename}.tex"
+  end
+  FileUtils.copy(dirname + "/templates/#{type}.tex", out)
   FileUtils.rm_r(dirname + "/templates/")
+
+  ARGV.slice(1,ARGV.size).each{|v| task v.to_sym do; end}
 end
 
 desc "initialize simple tex project"
