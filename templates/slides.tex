@@ -1,0 +1,61 @@
+\documentclass[dvipdfmx,11pt,notheorems]{beamer} % {{{"""
+% {{{"" スライドの見た目
+% しおりの文字化け対策 {{{"
+\usepackage{atbegshi}
+\ifnum 42146=\euc"A4A2 \AtBeginShipoutFirst{\special{pdf:tounicode EUC-UCS2}}\else
+\AtBeginShipoutFirst{\special{pdf:tounicode 90ms-RKSJ-UCS2}}\fi
+% "}}}
+
+\usetheme{Madrid}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{frametitle}[default][center]
+\setbeamertemplate{navigation symbols}{}
+\setbeamercovered{transparent}
+\setbeamertemplate{footline}[page number]
+\setbeamerfont{footline}{size=\normalsize,series=\bfseries}
+\setbeamercolor{footline}{fg=black,bg=black}
+% "" }}}
+
+% {{{"" 定義環境
+\usepackage{amsmath,amssymb}
+\usepackage{amsthm}
+% "" }}}
+
+% {{{"" フォント基本設定
+\usepackage[T1]{fontenc}%8bit フォント
+\usepackage{textcomp}%欧文フォントの追加
+\usepackage[utf8]{inputenc}%文字コードをUTF-8
+\usepackage{otf}%otfパッケージ
+\usepackage{lxfonts}%数式・英文ローマン体を Lxfont にする
+\usepackage{bm}%数式太字
+% ""}}}
+
+\usepackage{yassu}
+% """}}}
+
+\title{Title}
+\author{Author}
+\date{Date}
+\begin{document}
+
+\begin{frame}[plain]\frametitle{} % {{{"""
+\maketitle
+\end{frame} % """}}}
+
+\section{Section 1} % {{{"""
+
+\begin{frame} \frametitle{Frame} % {{{""
+Content 1
+\end{frame} % ""}}}
+
+% """}}}
+
+\section{Section 2} % {{{"""
+
+\begin{frame} \frametitle{Frame 2} % {{{""
+Content 2
+\end{frame} % ""}}}
+% """}}}
+
+\end{document}
+
