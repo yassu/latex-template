@@ -1,7 +1,7 @@
 latex-template
 ================
 
-This is template for my project by using latex (thesis, report or prezentation).
+This is a template for my project by using latex (thesis, report or presentation).
 
 What are files in this project?
 ---------------------------------

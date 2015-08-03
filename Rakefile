@@ -1,9 +1,9 @@
 require 'fileutils'
 
-BASE_FILENAME = 'base_filename_of_tex'
-AUTHOR = 'author_name'
+BASE_FILENAME = 'basefilename'
+AUTHOR = 'author'
 
-LATEX = 'latex'
+LATEX = 'platex'
 DVIP = 'dvipdfm'
 VIEW = 'evince'
 
@@ -73,12 +73,21 @@ task :clean_pub do
   FileUtils.rm(Dir.glob('*').select{|s| s.start_with?(AUTHOR)})
 end
 
+EXTENSIONS_ABOUT_TEX = ['aux', 'log', 'dvi', 'pdf', 'fdb_latexmk', 'fls',
+                        'nav', 'out', 'snm', 'toc']
+
+def is_latex_file(filename)
+  for ext in EXTENSIONS_ABOUT_TEX
+    if filename.end_with?('.' + ext)
+      return true
+    end
+  end
+  return false
+end
+
 desc "clean all files made from tex file and for referee"
 task :clean do
-  FileUtils.rm(Dir.glob('*').select{|s| s.start_with?(AUTHOR)})
-  FileUtils.rm(Dir.glob('*').select{|s| \
-    s.end_with?('.aux') \
-    or s.end_with?('.log') \
-    or s.end_with?('.dvi') \
-    or s.end_with?('.pdf')})
+  FileUtils.rm(Dir.glob('*').select{|fname| fname.start_with?(AUTHOR)})
+  FileUtils.rm(Dir.glob('*').select{|fname| is_latex_file(fname)})
 end
+

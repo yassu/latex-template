@@ -31,16 +31,21 @@
 
 % Declare Math Operators
 \DeclareMathOperator{\corank}{corank}
+\DeclareMathOperator{\ord}{ord}
 
 % to my pretty math symbols
+\renewcommand{\Re}{\mathrm{Re}}
+\renewcommand{\Im}{\mathrm{Im}}
 \renewcommand{\epsilon}{\varepsilon}
 \renewcommand{\phi}{\varphi}
 
 % Theorem environments
 \newtheorem{thm}{Theorem}
-\newtheorem{prop}{Proposition}
+\newcommand{\propname}{Proposition}
+\newtheorem{prop}{\propname}
 \newtheorem{Cor}{Colorally}
 \newtheorem{Lem}{Lemma}
+\newtheorem{Example}{Example}
 \newtheorem{Sym}{Symbol}
 \newtheorem{Def}{Deffinition}
 \newtheorem{conj}{Conjecture}
