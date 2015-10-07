@@ -5,9 +5,11 @@
 *.fdb_latexmk
 *.pdf
 *.bak
+*.dblite
 
 *.obj
 *.png
+!img/*.png
 *.eps
 *.jpg
 *.gif
