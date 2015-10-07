@@ -1,0 +1,15 @@
+[
+  {
+    "command": "defarrow",
+    "type":    "math"
+  },
+  {
+    "command": "teacher_talk",
+    "type": "environment",
+    "text": "talktalk"
+  },
+  {
+    "command": "then",
+    "type": "math"
+  }
+]
