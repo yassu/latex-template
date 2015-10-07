@@ -3,6 +3,9 @@ latex-template
 
 This is a template for my project by using latex (thesis, report or presentation).
 
+Note that `SConStruct` is a file for building images in this project.
+Please don't use this file.
+
 What are files in this project?
 ---------------------------------
 
