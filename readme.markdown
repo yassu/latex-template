@@ -11,8 +11,9 @@ Contents
 
 * What are files in this project?
 * Basic Customization
-* functions in `yassu.sty`
-* tasks in Rakefile
+* Functions in `yassu.sty`
+* Tasks in Rakefile
+* LICENSE
 
 What are files in this project?
 ---------------------------------
@@ -22,15 +23,6 @@ What are files in this project?
   - slides.tex: template for starting tex project by using slides.
 * .gitignore: the some file for ignore files if you use git
 * Rakefile: task file by using rake command.
-  tasks are following:
-  - clean: clean all files made from tex file and for referee
-  - clean_pub: delete all files for referee
-  - compile: Only compile with latex command
-  - create: compile and make pdf file from tex file
-  - default: default task is view: make pdf file and view pdf file
-  - publish: make tex and pdf files for referee. (format: AUTOR-FILENAME-VER.ext)
-             For this task, we use `AUTHOR` variable in Rakefile.
-  - view: make pdf from tex file and view pdf
 * yassu.sty: sty file for some pretty settings of latex
 * .local.vimrc: setting of vim for this latex-project. This file is for
     [thinca/vim-localrc](https://github.com/thinca/vim-localrc).
@@ -52,7 +44,7 @@ I recommend that you setting following:
   `AUTHOR` variable is only used for publish tasks.
   So, if you use tex project for yourself, you can ignore `AUTHOR` variable.
 
-functions in `yassu.sty`
+Functions in `yassu.sty`
 --------------------------
 
 `yassu.sty` includes some packages and pretty definitions (for me).
@@ -195,8 +187,17 @@ You will be able to use following theorem environments:
 </tr>
 </table>
 
-tasks in Rakefile
+Tasks in Rakefile
 -------------------
+
+Tasks are following:
+  * `clean:` clean all files made from tex file and for referee
+  * `clean_pub:` delete all files for referee
+  * `compile:` Only compile with latex command
+  * `create:` compile and make pdf file from tex file
+  * `default:` default task is view: make pdf file and view pdf file
+  * `publish:` make tex and pdf files for referee. (format: AUTOR-FILENAME-VER.ext).  For this task, we use `AUTHOR` variable in Rakefile.
+  * `view:` make pdf from tex file and view pdf
 
 LICENSE
 ---------
