@@ -11,5 +11,121 @@
   {
     "command": "then",
     "type": "math"
+  },
+  {
+    "command": "st",
+    "type": "math"
+  },
+  {
+    "command": "zero",
+    "type": "math"
+  },
+  {
+    "command": "norm",
+    "type": "math",
+    "arg": "\\cdot"
+  },
+  {
+    "command": "del",
+    "type": "math"
+  },
+  {
+    "command": "set",
+    "type": "math",
+    "arg": "\\cdot"
+  },
+  {
+    "command": "NN",
+    "type": "math"
+  },
+  {
+    "command": "ZZ",
+    "type": "math"
+  },
+  {
+    "command": "QQ",
+    "type": "math"
+  },
+  {
+    "command": "RR",
+    "type": "math"
+  },
+  {
+    "command": "CC",
+    "type": "math"
+  },
+  {
+    "command": "corank",
+    "type": "math"
+  },
+  {
+    "command": "ord",
+    "type": "math"
+  },
+  {
+    "command": "Re",
+    "type": "math"
+  },
+  {
+    "command": "Im",
+    "type": "math"
+  },
+  {
+    "command": "epsilon",
+    "type": "math"
+  },
+  {
+    "command": "phi",
+    "type": "math"
+  },
+
+  {
+    "command": "thm",
+    "type": "environment",
+    "text": "Test Theorem"
+  },
+  {
+    "command": "propname",
+    "type": "plain"
+  },
+  {
+    "command": "prop",
+    "type": "environment",
+    "text": "Test Proposition"
+  },
+  {
+    "command": "Cor",
+    "type": "environment",
+    "text": "Test Colorally"
+  },
+  {
+    "command": "Lem",
+    "type": "environment",
+    "text": "Test Lemma"
+  },
+  {
+    "command": "Example",
+    "type": "environment",
+    "text": "Test Example"
+  },
+  {
+    "command": "Sym",
+    "type": "environment",
+    "text": "Test Symbol"
+  },
+  {
+    "command": "Def",
+    "type": "environment",
+    "text": "Test Deffinition"
+  },
+  {
+    "command": "conj",
+    "type": "environment",
+    "text": "Test Conjecture"
+  },
+  {
+    "command": "Fact",
+    "type": "environment",
+    "text": "Test Fact"
   }
 ]
