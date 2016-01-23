@@ -118,7 +118,7 @@ In math mode, you will be able to use or re-definition following commands:
 </tr>
 <tr>
   <td> \CC </td>
-  <td> [CC](http://i.imgur.com/msovQvj.png) </td>
+  <td> <img src="http://i.imgur.com/msovQvj.png" alt="CC" title="CC"> </td>
 </tr>
 <tr>
   <td> \corank </td>
