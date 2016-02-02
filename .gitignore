@@ -9,7 +9,7 @@
 
 *.obj
 *.png
-!img/*.png
+!imgs/*.png
 *.eps
 *.jpg
 *.gif
