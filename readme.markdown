@@ -60,7 +60,7 @@ In text mode, you will be able to use following commands:
 <table border>
 <tr>
   <td> \propname </td>
-  <td> ![./img/propname.png](./img/propname.png)</td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/prop.png" alt="prop"> </td>
 </tr>
 </table>
 
@@ -69,7 +69,7 @@ And you will be able to use following environments(without Theorem Environments)
 <table border>
 <tr>
   <td> teacher_talk </td>
-  <td> ![./img/teacher_talk.png](./img/teacher_talk.png)</td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/teacher_talk.png" alt="teacher_talk"> </td>
 </tr>
 </table>
 
@@ -78,71 +78,71 @@ In math mode, you will be able to use or re-definition following commands:
 <table border>
 <tr>
   <td> \then </td>
-  <td> ![./img/then.png](./img/then.png) </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/then.png" alt="then"> </td>
 </tr>
 <tr>
   <td> \st </td>
-  <td> ![./img/st.png](./img/st.png) </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/st.png" alt="s.t."> </td>
 </tr>
 <tr>
   <td> \zero </td>
-  <td> ![./img/zero.png](./img/zero.png) </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/zero.png" alt="zero"> </td>
 </tr>
 <tr>
   <td> \norm </td>
-  <td> ![./img/norm.png](./img/norm.png) </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/norm.png" alt="norm"> </td>
 </tr>
 <tr>
   <td> \del </td>
-  <td> ![./img/del.png](./img/del.png) </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/del.png" alt="del"> </td>
 </tr>
 <tr>
   <td> \set </td>
-  <td> ![./img/set.png](./img/set.png) </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/set.png" alt="set"> </td>
 </tr>
 <tr>
   <td> \NN </td>
-  <td> ![./img/NN.png](./img/NN.png) </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/NN.png" alt="NN"> </td>
 </tr>
 <tr>
   <td> \ZZ </td>
-  <td> ![./img/ZZ.png](./img/ZZ.png) </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/ZZ.png" alt="ZZ"> </td>
 </tr>
 <tr>
   <td> \QQ </td>
-  <td> ![./img/QQ.png](./img/QQ.png) </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/QQ.png" alt="QQ"> </td>
 </tr>
 <tr>
   <td> \RR </td>
-  <td> ![./img/RR.png](./img/RR.png) </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/RR.png" alt="RR"> </td>
 </tr>
 <tr>
   <td> \CC </td>
-  <td> ![CC](https://raw.githubusercontent.com/yassu/latex-template/master/imgs/CC.png) </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/CC.png" alt="CC"> </td>
 </tr>
 <tr>
   <td> \corank </td>
-  <td> ![./img/corank.png](./img/corank.png) </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/corank.png" alt="corank"> </td>
 </tr>
 <tr>
   <td> \ord </td>
-  <td> ![./img/ord.png](./img/ord.png) </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/ord.png" alt="ord"> </td>
 </tr>
 <tr>
   <td> \Re </td>
-  <td> ![./img/Re.png](./img/Re.png) </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/Re.png" alt="Re"> </td>
 </tr>
 <tr>
   <td> \Im </td>
-  <td> ![./img/Im.png](./img/Im.png) </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/Im.png" alt="Im"> </td>
 </tr>
 <tr>
   <td> \epsilon </td>
-  <td> ![./img/epsilon.png](./img/epsilon.png) </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/epsilon.png" alt="epsilon"> </td>
 </tr>
 <tr>
   <td> \phi </td>
-  <td> ![./img/phi.png](./img/phi.png) </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/phi.png" alt="phi"> </td>
 </tr>
 </table>
 
@@ -151,39 +151,39 @@ You will be able to use following theorem environments:
 <table border>
 <tr>
   <td> thm </td>
-  <td> ![./img/thm.png](./img/thm.png) </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/thm.png" alt="thm"> </td>
 </tr>
 <tr>
   <td> prop </td>
-  <td> ![./img/prop.png](./img/prop.png) </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/prop.png" alt="prop"> </td>
 </tr>
 <tr>
   <td> Cor</td>
-  <td> ![./img/Cor.png](./img/Cor.png) </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/Cor.png" alt="Cor"> </td>
 </tr>
 <tr>
   <td> Lem </td>
-  <td> ![./img/Lem.png](./img/Lem.png) </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/Lem.png" alt="Lem.png"> </td>
 </tr>
 <tr>
   <td> Example </td>
-  <td> ![./img/Example.png](./img/Example.png) </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/Example.png" alt="Example"> </td>
 </tr>
 <tr>
   <td> Sym </td>
-  <td> ![./img/Sym.png](./img/Sym.png) </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/Sym.png" alt="Sym"> </td>
 </tr>
 <tr>
   <td> Def </td>
-  <td> ![./img/Def.png](./img/Def.png) </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/Def.png" alt="Def.png"> </td>
 </tr>
 <tr>
   <td> conj</td>
-  <td> ![./img/conj.png](./img/conj.png) </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/conj.png" alt="conj.png"> </td>
 </tr>
 <tr>
   <td> Fact </td>
-  <td> ![./img/Fact.png](./img/Fact.png) </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/Fact.png" alt="Fact"> </td>
 </tr>
 </table>
 
