@@ -85,6 +85,10 @@ In math mode, you will be able to use or re-definition following commands:
   <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/st.png" alt="s.t."> </td>
 </tr>
 <tr>
+  <td> \same </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/same.png" alt="same"> </td>
+</tr>
+<tr>
   <td> \zero </td>
   <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/zero.png" alt="zero"> </td>
 </tr>
@@ -129,6 +133,30 @@ In math mode, you will be able to use or re-definition following commands:
   <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/ord.png" alt="ord"> </td>
 </tr>
 <tr>
+  <td> \Ker </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/Ker.png" alt="Ker"> </td>
+</tr>
+<tr>
+  <td> \GL </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/GL.png" alt="GL"> </td>
+</tr>
+<tr>
+  <td> \cod </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/cod.png" alt="cod"> </td>
+</tr>
+<tr>
+  <td> \rank </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/rank.png" alt="rank"> </td>
+</tr>
+<tr>
+  <td> \const </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/const.png" alt="const"> </td>
+</tr>
+<tr>
+  <td> \Aut </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/Aut.png" alt="Aut"> </td>
+</tr>
+<tr>
   <td> \Re </td>
   <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/Re.png" alt="Re"> </td>
 </tr>
@@ -150,6 +178,10 @@ You will be able to use following theorem environments:
 
 <table border>
 <tr>
+  <td> theoname </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/theoname.png" alt="theoname"> </td>
+</tr>
+<tr>
   <td> thm </td>
   <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/thm.png" alt="thm"> </td>
 </tr>
@@ -158,8 +190,16 @@ You will be able to use following theorem environments:
   <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/prop.png" alt="prop"> </td>
 </tr>
 <tr>
+  <td> corname </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/corname.png" alt="Cor.png"> </td>
+</tr>
+<tr>
   <td> Cor</td>
   <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/Cor.png" alt="Cor"> </td>
+</tr>
+<tr>
+  <td> lemname </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/lemname.png" alt="lemname.png"> </td>
 </tr>
 <tr>
   <td> Lem </td>
@@ -168,6 +208,10 @@ You will be able to use following theorem environments:
 <tr>
   <td> Example </td>
   <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/Example.png" alt="Example"> </td>
+</tr>
+<tr>
+  <td> Note </td>
+  <td> <img src="https://raw.githubusercontent.com/yassu/latex-template/master/imgs/note.png" alt="Note"> </td>
 </tr>
 <tr>
   <td> Sym </td>
