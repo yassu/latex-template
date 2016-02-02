@@ -12,7 +12,7 @@ JSON_INFO_FILENAME = 'imgs/info.json'
 
 def make_img_from_command(command):
     name = command['command']
-    kind = command['type']
+    kind = command.get('type', 'text')
     arg  = command.get('arg', '')
     text = command.get('text', '')
 
