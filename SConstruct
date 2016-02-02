@@ -8,7 +8,7 @@ from json import load as _json_load
 from tempfile import NamedTemporaryFile
 env = Environment(ENV = os.environ)
 
-JSON_INFO_FILENAME = 'img/info.json'
+JSON_INFO_FILENAME = 'imgs/info.json'
 
 def make_img_from_command(command):
     name = command['command']
@@ -43,7 +43,7 @@ def make_img_from_command(command):
                                 dir='.', delete=False)
     source_dvi = os.path.splitext(source.name)[0] + '.dvi'
     source.write(latex_source.encode('utf-8'))
-    output_name = 'img/{}.png'.format(name)
+    output_name = 'imgs/{}.png'.format(name)
     print(output_name)
     try:
         env.Command(output_name, JSON_INFO_FILENAME,

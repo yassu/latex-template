@@ -13,6 +13,10 @@
     "type": "math"
   },
   {
+    "command": "same",
+    "type": "math"
+  },
+  {
     "command": "st",
     "type": "math"
   },
@@ -63,6 +67,30 @@
     "type": "math"
   },
   {
+    "command": "Ker",
+    "type": "math"
+  },
+  {
+    "command": "GL",
+    "type": "math"
+  },
+  {
+    "command": "cod",
+    "type": "math"
+  },
+  {
+    "command": "rank",
+    "type": "math"
+  },
+  {
+    "command": "const",
+    "type": "math"
+  },
+  {
+    "command": "Aut",
+    "type": "math"
+  },
+  {
     "command": "Re",
     "type": "math"
   },
@@ -78,7 +106,9 @@
     "command": "phi",
     "type": "math"
   },
-
+  {
+    "command": "theoname"
+  },
   {
     "command": "thm",
     "type": "environment",
@@ -94,9 +124,15 @@
     "text": "Test Proposition"
   },
   {
+    "command": "corname"
+  },
+  {
     "command": "Cor",
     "type": "environment",
     "text": "Test Colorally"
+  },
+  {
+    "command": "lemname"
   },
   {
     "command": "Lem",
@@ -107,6 +143,11 @@
     "command": "Example",
     "type": "environment",
     "text": "Test Example"
+  },
+  {
+    "command": "note",
+    "type": "environment",
+    "text": "Test Note"
   },
   {
     "command": "Sym",
