@@ -12,6 +12,7 @@ VIEW_PDF = 'evince'
 
 
 class Commands(list):
+
     def run(self):
         for cmd in self:
             print(cmd)
@@ -41,6 +42,7 @@ def view(basename=MAIN_BASENAME, make=True):
     cmds = Commands()
     cmds.append('%s %s' % (VIEW_PDF, basename + '.pdf'))
     cmds.run()
+
 
 def is_using_git():
     try:
@@ -72,12 +74,14 @@ def submit(basename=MAIN_BASENAME, make=True, tag=None, author=AUTHOR):
 def hand(basename=MAIN_BASENAME, make=True, tag=None, author=AUTHOR):
     submit(basename, make, tag, author)
 
+
 def get_cleaned_filenames(base_filename):
     yield 'fabfile.pyc'
     yield 'x.log'
     for filename in (base_filename + ext for ext in
-            ('.aux', '.dvi', '.log', '.pdf')):
+                     ('.aux', '.dvi', '.log', '.pdf')):
         yield filename
+
 
 @task
 def clean(basename=MAIN_BASENAME):
