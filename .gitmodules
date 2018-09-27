@@ -1,0 +1,3 @@
+[submodule "yassu.sty"]
+	path = yassu.sty
+	url = https://github.com/yassu/yassu.sty
